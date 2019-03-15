@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body class=" teal lighten-1">
+    <div class="container" style="width:300px;">
+        <center>
+            <div class="row">
+                <div class="col s12">
+                    <h5>Calculator Javascript
+                    </h5>
+                </div>
+            </div>
+            <FORM NAME="Calc" style="margin-top:-5">
+                <br><br>
+                <div class="row">
+                    <div class="col s12 white">
+                        <INPUT  TYPE="text" NAME="Input" Size="0">
+                    </div>
+                </div>
+                <div class="row teal lighten-2" id="hasil" style="color:white;">&nbsp;</div><br>
+
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                     OnClick=angka(1)>1</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                     OnClick=angka(2)>2</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                    OnClick=angka(3)>3</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-2"
+                     OnClick=tambah()>+</a>
+                <br><br>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                     OnClick=angka(4)>4</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                    OnClick=angka(5)>5</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                    OnClick=angka(6)>6</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-2"
+                     OnClick=kurang()>-</a>
+                <br><br>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                    OnClick=angka(7)>7</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                     OnClick=angka(8)>8</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                     OnClick=angka(9)>9</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-2"
+                    OnClick=kali()>*</a>
+                <br><br>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-2"
+                    OnClick=koma()>.</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-4"
+                     OnClick=angka(0)>0</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-2"
+                     OnClick=mod()>%</a>
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-2"
+                    OnClick=bagi()>/</a>
+                <br><br>
+                <a class="waves-effect waves-light btn yellow darken-4"
+                    OnClick=hapus()>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                &nbsp;<a class="waves-effect waves-light btn deep-orange darken-4"
+                    OnClick=hasil()>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+    </div>
+    </center>
+    </FORM>
+    <script type="text/javascript" src="script.js"></script>
+    <footer class="page-footer teal lighten-1">
+        <div class="footer-copyright teal lighten-2">
+            <div class="container">
+                ©2019 Copyright Riyandi Syahputra
+                <a class="grey-text text-lighten-4 right" href="#!"><img src="logo.png" alt=""
+                        style="width:25%;position:fixed-bottom;"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
